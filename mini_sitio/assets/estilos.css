@@ -1,68 +1,111 @@
-@media (min-width: 768px) { 
-  .alto-100{
-      height: 100vh;
-      width: 100vh;
-  }
+@font-face {
+  font-family: bodoni-bold;
+  src: url(tipografias/bodoni-bold.ttf);
 }
 
 
-
-
-
-
-.personajes__{
-  background-color: pink;
-  border: 1px solid black;
-  margin: 20% auto;
-  border-radius: 0%;
- 
+@font-face {
+  font-family: RomanWoodTypeJNL;
+  src: url(tipografias/RomanWoodTypeJNL.ttf);
 }
 
+h1{
+  font-family: RomanWoodTypeJNL;
+  font-size: 70px ;
+}
+
+h3{
+  font-family: RomanWoodTypeJNL;
+  font-size: 50px ;
+}
+
+p {
+  font-family: 'Times New Roman', Times, serif;
+  
+}
+
+.home__ {
+  background-image: url(img/fondoshelbys.png);
+}
+
+.pororden__ {
+  font-family: bodoni-bold;
+  padding-right: 30px;
+  padding-top: 10px;
+  font-size: 50px;
+}
+
+
+.sinopsis__ {
+padding: 15px auto;
+padding-top: 40px;
+
+}
 
 
 .premios__{
-margin: 10% auto;
+  margin: 10px auto;
+  
+  padding-top: 25px;
+ 
+
+  }
+  
+
+
+.fondopersonajes__ {
+  background-image: url(img/fondoshelbys.png);
+  background-size: cover;
 }
 
+.botonpersonaje__ {
+  margin: 88px auto;
+}
 
 .shelbys__ {
-  background-color: blanchedalmond;
+  background-image: url(img/fondoshelbys.png);
+  background-size: contain;
+}
 
+.enemigos__ {
+  background-image: url(img/fondoenemigos2.png);
+background-size: cover;
+}
+
+.fichapersonaje__ {
+  margin-top: 60px ;
+  flex-flow: row wrap;
 }
 
 
-.carruselpers__{
+
+.fotopersonaje__ {
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+
+.colorenemigos__ {
+  color: white;
+}
+
+
+.temporadasfondo__ {
+  background-image: url(img/texturaladrillo.jpg);
+  background-size: contain;
+}
+
+.temporadas__ {
+  margin-top: 15px;
+  margin-left: 0,5%;
+  padding-top: 5px;
  
   
-  margin: 20% auto;
-
-  padding: 5%;
-}
-
-
-.enemigos__{
-background-color: black;
-
-
-}
-
-
-.carruselenemigos__ {
-
-  margin: 20% auto;
+  font-family: RomanWoodTypeJNL; color: white;
   
-  font: rgba(255, 255, 255, 0.993); 
-
-  padding: 5%;
-}
-
-
-.video__ {
-  margin: 80% auto;
-}
-
-.temporadas__{
-  padding: 5%;
-
  
 }
+
+
+
+
